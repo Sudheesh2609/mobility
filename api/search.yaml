@@ -282,16 +282,16 @@ components:
                               descriptor:
                                 name: Economy
                                 code: CHARGE
-                              price: 10 INR per unit
+                              tariff: 10 INR per unit
                               tags:
                                 groups/1/descriptor/name: FastCharge Stations
                                 groups/1/display: true
                                 groups/1/list/1/descriptor/name: Min Fare for one unit
-                                groups/1/list/1/value: ₹ 9.5 per unit
+                                groups/1/list/1/value: 9.5 INR per unit
                                 groups/1/list/2/descriptor/name: Rate above Min. Fare
-                                groups/1/list/2/value: ₹10 per unit
+                                groups/1/list/2/value: 10 INR per unit
                                 groups/1/list/3/descriptor/name: Pre-Booking Charges
-                                groups/1/list/3/value: ₹ 100
+                                groups/1/list/3/value: 100 INR
                               fulfillment_id: fb5c84d4-1b59-4b9d-96b5-9d79107432c5
                               payment_id: '1'
                           fulfillments:
@@ -513,11 +513,11 @@ components:
                                 groups/1/descriptor/name: DC charge Charges
                                 groups/1/display: true
                                 groups/1/list/1/descriptor/name: Min Fare for one unit
-                                groups/1/list/1/value: ₹ 9.5 per unit
+                                groups/1/list/1/value: 9.5 INR per unit
                                 groups/1/list/2/descriptor/name: Rate above Min. Fare
-                                groups/1/list/2/value: ₹10 per unit
+                                groups/1/list/2/value: 10 INR per unit
                                 groups/1/list/3/descriptor/name: Pre-Booking Charges
-                                groups/1/list/3/value: ₹ 100
+                                groups/1/list/3/value: 100 INR
                                 groups/1/list/4/descriptor/name: Non-log9 battery charge
                                 groups/1/list/4/descriptor/short_desc: Except for log9 battery enabled vehicles
                                 groups/1/list/4/value: 0 INR                                
